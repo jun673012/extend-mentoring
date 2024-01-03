@@ -14,15 +14,11 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
         int x = Integer.parseInt(st.nextToken());
 
-        int[] arr = new int[n];
-
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
-            arr[i] = Integer.parseInt(st.nextToken());
-        }
-        for (int i = 0; i < n; i++) {
-            if (arr[i] < x) {
-                bw.write(arr[i] + " ");
+            int a = Integer.parseInt(st.nextToken());
+            if (a < x) {
+                bw.write(a + " ");
             }
         }
 
