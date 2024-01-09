@@ -11,12 +11,22 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
+        long a = Long.parseLong(st.nextToken());
+        long b = Long.parseLong(st.nextToken());
 
-        bw.write(b - a -1 + "\n");
+        if (a > b) {
+            long temp = a;
+            a = b;
+            b = temp;
+        }
 
-        for (int i = a + 1; i < b; i++) {
+        if (b - a < 1) {
+            bw.write(0 + "\n");
+        } else {
+            bw.write(b - a - 1 + "\n");
+        }
+
+        for (long i = a + 1; i < b; i++) {
             bw.write(i + " ");
         }
 
