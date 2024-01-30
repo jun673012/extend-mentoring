@@ -1,0 +1,10 @@
+1. https://www.acmicpc.net/problem/10845<br>
+2. https://www.acmicpc.net/problem/18258<br>
+3. https://www.acmicpc.net/problem/2839<br>
+4. https://www.acmicpc.net/problem/2164<br>
+5. https://www.acmicpc.net/problem/10866<br>
+6. https://www.acmicpc.net/problem/1463<br>
+7. https://www.acmicpc.net/problem/9095<br>
+8. https://www.acmicpc.net/problem/2579<br>
+9. https://www.acmicpc.net/problem/1003<br>
+10. https://www.acmicpc.net/problem/1788
