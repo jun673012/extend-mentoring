@@ -10,8 +10,6 @@ class Main {
         StringTokenizer st;
         Deque<Integer> deque = new LinkedList<Integer>();
 
-        int back = 0;
-
         int n = Integer.parseInt(br.readLine());
 
         for(int i=0; i<n; i++){
@@ -27,7 +25,6 @@ class Main {
             else if(s.equals("push_back")){
                 int a = Integer.parseInt(st.nextToken());
                 deque.add(a);
-                back = a;
             }
             else if(s.equals("pop_front")){
                 if(deque.isEmpty())
