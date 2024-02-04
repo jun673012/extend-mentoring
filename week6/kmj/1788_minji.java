@@ -8,7 +8,7 @@ class Main {
 
         int n = input.nextInt() + 1000000;
 
-        int[] s = new int[2000000];
+        int[] s = new int[2000001];
         s[1000000] = 0;
         s[1000001] = 1;
 
