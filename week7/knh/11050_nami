@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+        int N_ = 1;
+        for(int i=N; i>0; i--){
+            N_*=i;
+        }
+        int K_ = 1;
+        for(int i=K; i>0; i--){
+            K_*=i;
+        }
+        int X = N-K;
+        int X_ = 1;
+        for(int i=X; i>0; i--){
+            X_*=i;
+        }
+        int result = N_/(K_ * X_);
+        System.out.print(result);
+    }
+}
